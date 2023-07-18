@@ -1,5 +1,5 @@
 {% set name = "lark" %}
-{% set version = "1.1.5" %}
+{% set version = "1.1.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lark-{{ version }}.tar.gz
-  sha256: 4b534eae1f9af5b4ea000bea95776350befe1981658eea3820a01c37e504bb4d
+  sha256: 46edcd5024bec2b2fe4526373d14c5e92da5190ba41566e1c387d9b7abb3b229
 
 build:
   number: 0
