@@ -17,14 +17,11 @@ build:
 
 requirements:
   host:
-    - regex
     - pip
     - python >=3.6
+    - setuptools >=61.2.0
   run:
-    - atomicwrites
-    - js2py
     - python >=3.6
-    - regex
 
 test:
   imports:
